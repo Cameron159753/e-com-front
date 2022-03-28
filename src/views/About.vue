@@ -1,16 +1,13 @@
 <template>
   <div class="middle">
-<div class="text-effect">
-    <span>About us</span>
-</div>
+<h1>About</h1>
 <div class="container">
   <img src="https://i.postimg.cc/fTmnGPKP/d2f5c06a-629d-4f20-a092-9e56315a80b3.webp" alt="" style="width:100%;">
   <div class="text-block">
 <div class="contentp">
-<p>Welcome to Weeb Store! We’re a bunch of enthusiastic Anime Fans who decided to convert their passion into an online Weeb Store that free deliver to over 17 countries! All started when we looked for a store that sells the kind of stuff a Weeb whould want and need, especially items related to Ongoing Anime! We couldn’t find it, so we decided to open our own store Weeb-Store by Weebs!</p>
+<p></p>
 <br>
 <p>
-    We hope you’ll like it as much as we did building it! Our prime goal was to create a shopping experience where you can easily find whatever Anime Merchandise you need and be 100% satisfied with it for life!
 </p>
   </div>
 </div>
@@ -77,25 +74,7 @@ p{
 }
 
 
-.demo{ background: #444; }
-.text-effect{
-    color: transparent;
-    font-family: 'Pacifico', cursive;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    text-shadow: inset 0px 0px 2px 1px rgba(137, 207, 240);
-    animation: animate 1.5s ease-in-out infinite alternate;
-}
-@keyframes animate{
-    100%{
-       text-shadow: 10px 10px 1px #89d8f0,9px 9px 2px #89d8f0,8px 8px 1px #89d8f0,
-                   -8px -8px 1px #89d8f0,-9px -9px 1px #89d8f0,-10px -10px 1px #89d8f0,
-                   -11px -11px 1px #89d8f0;
-    }
-}
+
 @media only screen and (max-width: 990px){
     .text-effect{ font-size: 65px; }
 }
@@ -108,7 +87,16 @@ p{
 @media only screen and (max-width: 359px){
     .text-effect{ font-size: 27px; }
 }
-
+h1 {
+  color: #fff;
+  font-family: "Bevan", cursive;
+  font-size: 4.75em;
+  font-weight: normal;
+  margin: 0 0 0.5em;
+  text-align: center;
+  text-shadow: 0.013em 0.039em 0.132em rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+}
 
 
 h1 {

@@ -1,6 +1,6 @@
 <template>
 <Navbar />
-
+<title>Nike</title>
 <Footer />
 
 </template>

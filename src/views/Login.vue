@@ -1,11 +1,12 @@
 <template>
 <div class="container">
 	<div class="main">
-		<div class="logo">
-			<h1>#</h1>
-		</div>
+	
 		<!-- Login Form -->  
 	</div>
+    <div class="middle">
+<h1>Login</h1>
+   </div>
   <body>
  
        <Form @submit="handleLogin" :validation-schema="schema">
@@ -90,6 +91,16 @@ export default {
     margin: 0;
     box-sizing: border-box;
     font-family: "Orbitron", sans-serif;
+}
+h1 {
+  color: #fff;
+  font-family: "Bevan", cursive;
+  font-size: 4.75em;
+  font-weight: normal;
+  margin: 0 0 0.5em;
+  text-align: center;
+  text-shadow: 0.013em 0.039em 0.132em rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
 }
 
 body {

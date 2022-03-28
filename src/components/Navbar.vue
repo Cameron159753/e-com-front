@@ -1,8 +1,10 @@
 <template>
   <div class="nav-container">
-   <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-code-square" viewBox="0 0 16 16">
-  <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-  <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50" height="50" fill="currentColor" class="bi bi-code-square" viewBox="0 0 16 16">
+ <path class="st0" d="M89.7,256.1c-9.7-0.4-17.7-3-23.9-8c-1.2-0.9-4-3.8-5-5c-2.5-3.2-4.2-6.3-5.4-9.7c-3.5-10.6-1.7-24.4,5.2-39.6
+	c5.9-13,15-25.9,30.9-43.8c2.3-2.6,9.3-10.3,9.4-10.3c0,0-0.4,0.7-0.8,1.5c-4.1,6.9-7.7,15.1-9.6,22.1c-3.1,11.3-2.7,21,1.1,28.6
+	c2.6,5.2,7.1,9.7,12.2,12.2c8.9,4.4,21.9,4.7,37.8,1.1c1.1-0.3,55.3-14.6,120.4-32c65.1-17.3,118.4-31.5,118.4-31.5
+	c0,0-151.3,64.7-229.8,98.3c-12.4,5.3-15.8,6.7-21.6,8.7C113.9,254.1,100.6,256.6,89.7,256.1z"/>
 </svg>
     <nav class="nav">
         
@@ -91,7 +93,7 @@ padding-right: 10rem */
   justify-content: flex-start;
   margin-top: 0%;
   width: 100%;
-  background:#89d8f0;
+  background:#000000;
   position: fixed;
   z-index: 10;
   transition: 0.3s ease-in-out;

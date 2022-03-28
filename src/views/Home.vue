@@ -1,70 +1,19 @@
 <template>
 
 <div class="middle">
-<div class="text-effect">
-    <span>Nike Official</span>
-</div>
+<h1>Nike Official</h1>
 <div class="container">
   <img src="https://i.postimg.cc/7ZhhMwDz/20201221-fl-nike-brand-page-m-asp.webp" alt="" style="width:100%;">
   <div class="content">
- <button class="btnbtn" href="{{ ('/Products') }}" >Shop now</button>
-<p>Weeb Store is the place where worlds collide.<br>
-Explore over a fine collection of anime merchandise to redefine your style with us, while we turn a purchase into a smile with you...</p>
+ <button class="btnbtn" a v-bind:href="{ name: Products}" >Shop now</button>
+<p>Not an official site.<br>
+nothing can be bought on this site, its just for show</p>
 </div>
 </div>
 </div>
 
 
-<div class="card-container">
-  
-  <h1>Partners
-    </h1><br>
-<p>We work with the world's most popular and trusted companies so that you can enjoy safe shopping and fast delivery.</p>
-  <br>
-  <div class="card visa">
-    <p>VISA</p>
-  </div>
-  
-  <div class="card mc">
-    <hr/>
-    <hr/>
-    <hr/>
-    <hr/>
-    <hr/>
-    <p>MasterCard</p>
-  </div>
-  
-  <div class="card amex">
-    <hr/>
-    <hr/>
-    <hr/>
-    <hr/>
-    <hr/>
-    <hr/>
-    <hr/>
-    <hr/>
-    <hr/>
-    <hr/>
-    <hr/>
-    <hr/>
-    <hr/>
-    <hr/>
-    <hr/>
-    <hr/>
-    <svg class='svg' height="100%" width="100%">
-      <text x="9%" y="45%" fill="none" stroke="#fff">AMERICAN</text>
-    </svg>
-    <svg class='svg' height="100%" width="100%">
-      <text x="23%" y="75%" fill="none" stroke="#fff">EXPRESS</text>
-    </svg>
-  </div>
-  
-  <div class="card discover">
-    <p>Discover</p>
-  </div>
-  
-  <div class="card back"><span></span></div>
-</div>
+
 
     
 
@@ -105,24 +54,7 @@ export default {
 }
 
 .demo{ background: #444; }
-.text-effect{
-    color: transparent;
-    font-family: 'Pacifico', cursive;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    text-shadow: inset 0px 0px 2px 1px rgb(0, 0, 0);
-    animation: animate 1.5s ease-in-out infinite alternate;
-}
-@keyframes animate{
-    100%{
-       text-shadow: 10px 10px 1px #0b0d0e,9px 9px 2px #090a0a,8px 8px 1px #0e0f0f,
-                   -8px -8px 1px #0d0f0f,-9px -9px 1px #15181a,-10px -10px 1px #0a0b0c,
-                   -11px -11px 1px #0c0e0f;
-    }
-}
+
 @media only screen and (max-width: 990px){
     .text-effect{ font-size: 65px; }
 }

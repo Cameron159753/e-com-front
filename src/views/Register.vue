@@ -1,9 +1,10 @@
 <template>
 <div class="container">
 	<div class="main">
-		<div class="logo">
-			<h1>#</h1>
-		</div>
+	
+   <div class="middle">
+<h1>Register</h1>
+   </div>
     <body>
 		<Form @submit="handleRegister">
           <div v-if="!successful">
@@ -153,7 +154,16 @@ export default {
     box-sizing: border-box;
     font-family: "Orbitron", sans-serif;
 }
-
+h1 {
+  color: #fff;
+  font-family: "Bevan", cursive;
+  font-size: 4.75em;
+  font-weight: normal;
+  margin: 0 0 0.5em;
+  text-align: center;
+  text-shadow: 0.013em 0.039em 0.132em rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+}
 body {
     background-image: url('https://i.postimg.cc/BQ2pVYbM/HD-wallpaper-nike-logo-air-blackberry-galaxy-logo-wars-thumbnail.jpg');
     background-size: cover;

@@ -4,7 +4,7 @@
 
   <section class="something">
   <!-- Footer -->
-  <footer class="text-center text-white" style="background-color: #89d8f0;">
+  <footer class="text-center text-white" style="background-color: black;">
     <!-- Grid container -->
     <div class="container p-4 pb-0">
       <!-- Section: CTA -->
@@ -21,7 +21,7 @@
     <!-- Grid container -->
 
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: #1C86EE;">
+    <div class="text-center p-3" style="background-color: black;">
       © 2022 Copyright:
     </div>
     <!-- Copyright -->
