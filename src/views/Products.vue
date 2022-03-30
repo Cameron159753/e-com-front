@@ -125,7 +125,7 @@ export default {
         this.product = json;
         this.loading = false;
         if (localStorage.getItem("jwt")) {
-          fetch("https://final-backend1.herokuapp.com/users/", {
+          fetch("https://ecomsss.herokuapp.com/auth/users", {
             method: "GET",
             headers: {
               "Content-type": "application/json; charset=UTF-8",
